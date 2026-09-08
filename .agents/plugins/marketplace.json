@@ -8,7 +8,7 @@
       "name": "wiki-memory",
       "source": {
         "source": "url",
-        "url": "https://github.com/ncleton-petitmaker/wiki-memory.git",
+        "url": "https://github.com/ncleton/wiki-memory.git",
         "ref": "main"
       },
       "policy": {

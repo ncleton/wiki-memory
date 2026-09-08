@@ -2,7 +2,7 @@
 
 ## Questions and setup help
 
-Use [GitHub Discussions](https://github.com/ncleton-petitmaker/wiki-memory/discussions) for onboarding questions, architecture choices, integrations, and general troubleshooting.
+Use [GitHub Discussions](https://github.com/ncleton/wiki-memory/discussions) for onboarding questions, architecture choices, integrations, and general troubleshooting.
 
 Before posting, run:
 
@@ -15,7 +15,7 @@ Read [Troubleshooting](docs/TROUBLESHOOTING.md) and remove private paths or cont
 
 ## Bugs and features
 
-Use the [bug report form](https://github.com/ncleton-petitmaker/wiki-memory/issues/new?template=bug_report.yml) for reproducible problems and the [feature request form](https://github.com/ncleton-petitmaker/wiki-memory/issues/new?template=feature_request.yml) for scoped changes. Include only synthetic examples.
+Use the [bug report form](https://github.com/ncleton/wiki-memory/issues/new?template=bug_report.yml) for reproducible problems and the [feature request form](https://github.com/ncleton/wiki-memory/issues/new?template=feature_request.yml) for scoped changes. Include only synthetic examples.
 
 ## Security and privacy
 

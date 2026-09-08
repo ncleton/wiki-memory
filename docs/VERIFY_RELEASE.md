@@ -5,7 +5,7 @@ its Team image. These commands download only public release artifacts; they do
 not require a vault, an OIDC token, or any production credential.
 
 ```bash
-repo=ncleton-petitmaker/wiki-memory
+repo=ncleton/wiki-memory
 tag=v1.0.0-alpha.24 # replace with the exact release you intend to use
 directory="$(mktemp -d)"
 
@@ -20,7 +20,7 @@ constrained to this repository’s release workflow and an exact version tag;
 the commands do not trust an arbitrary Fulcio certificate with the same key.
 
 ```bash
-identity="^https://github.com/ncleton-petitmaker/wiki-memory/.github/workflows/release.yml@refs/tags/v[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?$"
+identity="^https://github.com/ncleton/wiki-memory/.github/workflows/release.yml@refs/tags/v[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?$"
 
 cosign verify-blob --bundle SHA256SUMS.sigstore.json \
   --certificate-identity-regexp "$identity" \
@@ -38,7 +38,7 @@ with the same identity constraint:
 cosign verify \
   --certificate-identity-regexp "$identity" \
   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
-  ghcr.io/ncleton-petitmaker/wiki-memory@sha256:REPLACE_WITH_RELEASE_DIGEST
+  ghcr.io/ncleton/wiki-memory@sha256:REPLACE_WITH_RELEASE_DIGEST
 ```
 
 The release workflow executes the checksum and both `verify-blob` commands

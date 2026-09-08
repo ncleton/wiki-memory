@@ -5,7 +5,7 @@ This guide takes a new user from installation to a first source-grounded query.
 ## 1. Install the plugin
 
 ```bash
-codex plugin marketplace add ncleton-petitmaker/wiki-memory
+codex plugin marketplace add ncleton/wiki-memory
 codex plugin add wiki-memory@petitmaker
 ```
 

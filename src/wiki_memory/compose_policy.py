@@ -13,7 +13,7 @@ import sys
 
 
 OFFICIAL_IMAGE = re.compile(
-    r"^ghcr\.io/ncleton-petitmaker/wiki-memory@sha256:[0-9a-f]{64}$"
+    r"^ghcr\.io/ncleton/wiki-memory@sha256:[0-9a-f]{64}$"
 )
 
 
@@ -32,7 +32,7 @@ def image_policy_error(reference: str, allow_unverified: bool) -> str | None:
         return None
     return (
         "WIKI_MEMORY_IMAGE must be the exact signed GHCR digest "
-        "ghcr.io/ncleton-petitmaker/wiki-memory@sha256:<64 lowercase hex characters>."
+        "ghcr.io/ncleton/wiki-memory@sha256:<64 lowercase hex characters>."
     )
 
 

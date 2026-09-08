@@ -4,10 +4,10 @@
   "description": "Construire et entretenir une mémoire Markdown locale, structurée et reliée à ses sources.",
   "author": {
     "name": "Petitmaker",
-    "url": "https://github.com/ncleton-petitmaker"
+    "url": "https://github.com/ncleton"
   },
-  "homepage": "https://github.com/ncleton-petitmaker/wiki-memory#readme",
-  "repository": "https://github.com/ncleton-petitmaker/wiki-memory",
+  "homepage": "https://github.com/ncleton/wiki-memory#readme",
+  "repository": "https://github.com/ncleton/wiki-memory",
   "license": "MIT",
   "keywords": ["memory", "knowledge-base", "obsidian", "syncthing", "markdown"],
   "skills": "./skills/",
@@ -18,9 +18,9 @@
     "developerName": "Petitmaker",
     "category": "Productivity",
     "capabilities": ["Interactive", "Write", "Browser"],
-    "websiteURL": "https://github.com/ncleton-petitmaker/wiki-memory",
-    "privacyPolicyURL": "https://github.com/ncleton-petitmaker/wiki-memory/blob/main/SECURITY.md",
-    "termsOfServiceURL": "https://github.com/ncleton-petitmaker/wiki-memory/blob/main/LICENSE",
+    "websiteURL": "https://github.com/ncleton/wiki-memory",
+    "privacyPolicyURL": "https://github.com/ncleton/wiki-memory/blob/main/SECURITY.md",
+    "termsOfServiceURL": "https://github.com/ncleton/wiki-memory/blob/main/LICENSE",
     "brandColor": "#7CF7C2",
     "composerIcon": "./assets/wiki-memory-icon.png",
     "logo": "./assets/wiki-memory-icon.png",
