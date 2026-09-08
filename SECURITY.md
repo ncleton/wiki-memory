@@ -13,7 +13,7 @@ Upgrade to the latest release before reporting an issue when possible.
 
 ## Report a vulnerability privately
 
-Use GitHub's [private security advisory form](https://github.com/ncleton-petitmaker/wiki-memory/security/advisories/new). Do not include real vault contents, cookies, credentials, client information, or unrelated personal data.
+Use GitHub's [private security advisory form](https://github.com/ncleton/wiki-memory/security/advisories/new). Do not include real vault contents, cookies, credentials, client information, or unrelated personal data.
 
 Please include the affected version, operating system, impact, a minimal synthetic reproduction, and suggested mitigation when known. Maintainers will assess the report and credit the reporter unless anonymity is requested. No guaranteed response-time SLA is offered.
 

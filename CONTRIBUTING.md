@@ -4,7 +4,7 @@ Thank you for helping build a durable, local-first memory system. Contributions 
 
 ## Before starting
 
-- Search existing [issues](https://github.com/ncleton-petitmaker/wiki-memory/issues) and [discussions](https://github.com/ncleton-petitmaker/wiki-memory/discussions).
+- Search existing [issues](https://github.com/ncleton/wiki-memory/issues) and [discussions](https://github.com/ncleton/wiki-memory/discussions).
 - Use a discussion for an early idea or design question.
 - Use an issue for a reproducible bug or scoped feature.
 - Open a draft pull request early for changes that affect file formats, routing, security boundaries, or multiple platforms.
@@ -23,7 +23,7 @@ Thank you for helping build a durable, local-first memory system. Contributions 
 ## Development setup
 
 ```bash
-git clone https://github.com/ncleton-petitmaker/wiki-memory.git
+git clone https://github.com/ncleton/wiki-memory.git
 cd wiki-memory
 python3 -m venv .venv
 source .venv/bin/activate

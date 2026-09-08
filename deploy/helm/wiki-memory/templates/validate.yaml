@@ -4,7 +4,7 @@
 {{- if not (regexMatch "^sha256:[a-f0-9]{64}$" .Values.image.digest) -}}
 {{- fail "image.digest must be a lowercase sha256 digest with exactly 64 hexadecimal characters" -}}
 {{- end -}}
-{{- if ne .Values.image.repository "ghcr.io/ncleton-petitmaker/wiki-memory" -}}
+{{- if ne .Values.image.repository "ghcr.io/ncleton/wiki-memory" -}}
 {{- fail "image.repository must be the official Wiki Memory GHCR repository" -}}
 {{- end -}}
 {{- if and .Values.postgresql.internal (or (empty .Values.postgresql.password) (eq .Values.postgresql.password "change-me-before-install")) -}}

@@ -42,10 +42,10 @@ observability = [
 dev = ["build==1.3.0", "httpx>=0.28,<1", "pip-audit>=2.9,<3"]
 
 [project.urls]
-Homepage = "https://github.com/ncleton-petitmaker/wiki-memory"
-Documentation = "https://github.com/ncleton-petitmaker/wiki-memory/tree/main/docs"
-Issues = "https://github.com/ncleton-petitmaker/wiki-memory/issues"
-Changelog = "https://github.com/ncleton-petitmaker/wiki-memory/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/ncleton/wiki-memory"
+Documentation = "https://github.com/ncleton/wiki-memory/tree/main/docs"
+Issues = "https://github.com/ncleton/wiki-memory/issues"
+Changelog = "https://github.com/ncleton/wiki-memory/blob/main/CHANGELOG.md"
 
 [project.scripts]
 wiki-memory = "wiki_memory.cli:main"

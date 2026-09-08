@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ncleton-petitmaker/wiki-memory/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/ncleton-petitmaker/wiki-memory/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/ncleton-petitmaker/wiki-memory/releases"><img alt="Release" src="https://img.shields.io/github/v/release/ncleton-petitmaker/wiki-memory?display_name=tag&sort=semver"></a>
+  <a href="https://github.com/ncleton/wiki-memory/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/ncleton/wiki-memory/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/ncleton/wiki-memory/releases"><img alt="Release" src="https://img.shields.io/github/v/release/ncleton/wiki-memory?display_name=tag&sort=semver"></a>
   <a href="LICENSE"><img alt="Licence MIT" src="https://img.shields.io/badge/licence-MIT-7cf7c2"></a>
   <a href="https://www.python.org/"><img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-76a9ff"></a>
 </p>
