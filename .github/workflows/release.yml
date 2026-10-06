@@ -92,7 +92,7 @@ jobs:
         with: {version: "0.6.6", enable-cache: true}
       - run: uv sync --frozen --extra dev
       - run: uv run --frozen python -m build
-      - uses: anchore/sbom-action@v0.24.2
+      - uses: anchore/sbom-action@v0.24.3
         with:
           path: .
           format: spdx-json
