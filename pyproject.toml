@@ -33,7 +33,7 @@ server = [
   "cryptography>=50,<51",
 ]
 postgres = ["psycopg[binary]>=3.2,<4"]
-audio-mistral = ["mistralai>=1.9,<3"]
+audio-mistral = ["mistralai>=1.9,<4"]
 observability = [
   "opentelemetry-distro>=0.58b0,<1",
   "opentelemetry-exporter-otlp>=1.37,<2",
